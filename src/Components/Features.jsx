@@ -16,7 +16,7 @@ export default function Features() {
                 develop your business.
             </p>
         </div>   
-        
+
         <div className='features-2-wraper'>
             <div className='features-text-container-2'>
                 <h3 className='features-title-2'>Point Of Sale</h3>
@@ -27,6 +27,17 @@ export default function Features() {
                 </p>
             </div>
             <img src='./img/option_list.png' className='features-img'/>
+        </div>
+
+        <div className='staff-management-container'>
+            <p className='staff-mang-parag'>
+
+            </p>
+            <img src="" />
+        </div>
+
+        <div className=''>
+
         </div>
         
 
