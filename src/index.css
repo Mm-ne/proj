@@ -135,12 +135,23 @@ nav {
 
   margin: 0px;
   padding: 50px;
-
+  
   margin-top: 150px;
-
+  
   color: var(--primary);
 }
 
+.features-wraper h3{
+  font-size: 1.5rem;
+}
+
+.features-wraper p{
+  font-size: 13px;
+}
+
+
+
+/***********************/
 .features-text-container-1{
   text-align: center !important;
 }
@@ -154,34 +165,76 @@ nav {
   font-weight: lighter;
   font-size: 0.9rem;
 }
+/***********************/
 
 
 
 
 
 
-/********/
+/***********************/
 .features-2-wraper{
-
-  margin-top: 100px;
-
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
- 
+  justify-content: center;
+
+  margin-top: 60px;
+
+  background-color: aquamarine;
+
+  border-radius: 15px;
 }
 
 .features-img{
-  float: right;
-  width: 283px;
-  height: 267px;
+  width: 280px;
+  height: 290px;
 }
-.features-text-container-2 h3{
-  font-size: 2rem;
 
-}
 .features-par-2{
   font-size: 0.9rem;
 }
-/***********/
+/***********************/
+
+
+
+/* staff-manag and Inventory */
+.sm-inv-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+
+
+}
+
+.staff-management-container, .inventory-container{
+
+  background-color: #ffe195cf;
+  margin: 10px;
+
+  border-radius: 15px;
+
+  padding: 30px;
+  
+}
+.sm-inv-container h3{
+  margin-top: 15px;
+}
+
+.sm-inv-container p{
+
+  margin: 0px;
+  padding: 0px;
+
+  margin-top: -5px;
+
+  font-weight: lighter;
+
+
+}
+
+.sm-inv-container img{
+  width: 300px;
+  height: 260px;
+
+  margin-top: 60px;
+}
+/***********************/

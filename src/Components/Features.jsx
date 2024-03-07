@@ -18,6 +18,7 @@ export default function Features() {
         </div>   
 
         <div className='features-2-wraper'>
+
             <div className='features-text-container-2'>
                 <h3 className='features-title-2'>Point Of Sale</h3>
                 <p className='features-par-2'>
@@ -26,18 +27,34 @@ export default function Features() {
                     Invoices, Sell on credit.
                 </p>
             </div>
-            <img src='./img/option_list.png' className='features-img'/>
+            <div>
+                <img src='' className='features-img'/>
+            </div>
+
         </div>
 
-        <div className='staff-management-container'>
-            <p className='staff-mang-parag'>
 
-            </p>
-            <img src="" />
-        </div>
 
-        <div className=''>
+        <div className='sm-inv-container'>
 
+            <div className='staff-management-container'>
+                <h3>Staff Management</h3>
+                <p className='staff-mang-parag'>
+                    Customer profiles, Purchase orders, Unlimited staff,<br/>
+                    Roles & Permissions,, Staff PINs.
+                </p>
+                <img src="./img/employe_management.png" />
+            </div>
+
+            <div className='inventory-container'>
+                <h3>Inventory</h3>
+                <p className='inventoery-parag'>
+                    Unlimited products, Barcodes, Item variants, 
+                    Item <br/> units, Low-stock alerts, Suppliers profile.
+                </p>
+                <img src="./img/products-en.png" />
+            </div>
+        
         </div>
         
 
