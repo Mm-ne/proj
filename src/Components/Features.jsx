@@ -28,7 +28,7 @@ export default function Features() {
                 </p>
             </div>
             <div>
-                <img src='' className='features-img'/>
+                <img src='./img/option_list.png' className='features-img'/>
             </div>
 
         </div>
