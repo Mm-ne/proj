@@ -11,7 +11,7 @@ export default function Home() {
       <a href='https://googleplay.com'>
         App Link Google Play 🎮
       </a><br/>
-      <img src='./img/tablet.png' className='tablet-img-home'/>
+      <img src='https://github.com/Mm-ne/proj/blob/main/img/tablet.png' className='tablet-img-home'/>
     </div>
   )
 }

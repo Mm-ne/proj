@@ -142,11 +142,11 @@ nav {
 }
 
 .features-wraper h3{
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .features-wraper p{
-  font-size: 13px;
+  font-size: 15px;
 }
 
 
@@ -174,12 +174,11 @@ nav {
 
 /***********************/
 .features-2-wraper{
+
   display: flex;
   justify-content: center;
 
-  margin-top: 60px;
-
-  background-color: aquamarine;
+  margin-top: 100px;
 
   border-radius: 15px;
 }
@@ -187,17 +186,22 @@ nav {
 .features-img{
   width: 280px;
   height: 290px;
+
+  margin-left: 140px;
 }
 
 .features-par-2{
   font-size: 0.9rem;
 }
+
+
 /***********************/
 
 
 
 /* staff-manag and Inventory */
 .sm-inv-container{
+
   display: flex;
   justify-content: center;
   margin-top: 40px;
@@ -207,8 +211,8 @@ nav {
 
 .staff-management-container, .inventory-container{
 
-  background-color: #ffe195cf;
-  margin: 10px;
+  background-color: #efd79b;
+  margin: 25px;
 
   border-radius: 15px;
 
@@ -238,3 +242,26 @@ nav {
   margin-top: 60px;
 }
 /***********************/
+
+.rprt-stats-img{
+  width: 350px;
+  height: 260px;
+
+  margin-left: 140px;
+}
+
+.features-3-wraper{
+
+  display: flex;
+
+  justify-content: center;
+  margin-top: 100px;  
+
+  border-radius: 15px;
+
+  margin-left: 60px;
+}
+
+.features-par-3{
+  font-size: 0.9rem;
+}

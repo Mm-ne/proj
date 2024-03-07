@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 
 export default function Features() {
@@ -28,7 +29,7 @@ export default function Features() {
                 </p>
             </div>
             <div>
-                <img src='./img/option_list.png' className='features-img'/>
+                <img src='https://github.com/Mm-ne/proj/blob/main/img/option_list.png' className='features-img'/>
             </div>
 
         </div>
@@ -43,7 +44,7 @@ export default function Features() {
                     Customer profiles, Purchase orders, Unlimited staff,<br/>
                     Roles & Permissions,, Staff PINs.
                 </p>
-                <img src="./img/employe_management.png" />
+                <img src="https://github.com/Mm-ne/proj/blob/main/img/employe_management.png" />
             </div>
 
             <div className='inventory-container'>
@@ -52,9 +53,23 @@ export default function Features() {
                     Unlimited products, Barcodes, Item variants, 
                     Item <br/> units, Low-stock alerts, Suppliers profile.
                 </p>
-                <img src="./img/products-en.png" />
+                <img src="https://github.com/Mm-ne/proj/blob/main/img/products-en.png" />
             </div>
         
+        </div>
+
+        <div className='features-3-wraper'>
+
+            <div className='features-text-container-2'>
+                <h3 className='features-title-3'>Reports & Statistics</h3>
+                <p className='features-par-3'>
+                  Sales reports, Transactions reports, Inventory reports.
+                </p>
+            </div>
+            <div>
+                <img src='./img/analytics-en.png' className='rprt-stats-img'/>
+            </div>
+
         </div>
         
 
