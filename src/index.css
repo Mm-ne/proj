@@ -361,7 +361,7 @@ nav img{
 
 /* Business Types */
 .business-img-div{
-  width: 1100px;
+  width: 1000px;
   height: 600px;
   margin: auto;
 
@@ -374,7 +374,7 @@ nav img{
 }
 
 .business-img-div img{
-  width: 1100px;
+  width: 1000px;
   height: 600px;
 }
 
@@ -397,7 +397,7 @@ nav img{
 }
 
 .business-types-div{
-  width: 1155px;
+  width: 1050px;
   margin: 0 auto;
   margin-bottom: 40px;
 
@@ -408,7 +408,7 @@ nav img{
 }
 .business-types-div table{
   border-spacing: 30px;
-  width: 1160px;
+  width: 1057px;
 
   text-align: center;
   table-layout: fixed;
