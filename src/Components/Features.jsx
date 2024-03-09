@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Features() {
   return (
-    <div className='features-wraper'>
+    <div className='features-wraper' id='features'>
 
         <div className='features-text-container-1'>
             <h2 className='features-title-1'>
@@ -28,7 +28,7 @@ export default function Features() {
                     Invoices, Sell on credit.
                 </p>
             </div>
-            <div>
+            <div className='features-img-div'>
                 <img src='./img/option_list.png' className='features-img'/>
             </div>
 
@@ -58,18 +58,22 @@ export default function Features() {
         
         </div>
 
-        <div className='features-3-wraper'>
+        <div className='rprt-stats-container'>
 
-            <div className='features-text-container-2'>
-                <h3 className='features-title-3'>Reports & Statistics</h3>
-                <p className='features-par-3'>
-                  Sales reports, Transactions reports, Inventory reports.
+            <div className='rprt-stats-text'>
+                <h3>Reports & Statistics</h3>
+                <p className='rprt-stats-parag'>
+                    Customer profiles, Purchase orders, Unlimited staff,<br/>
+                    Roles & Permissions,, Staff PINs.
                 </p>
-            </div>
-            <div>
-                <img src='./img/analytics-en.png' className='rprt-stats-img'/>
+                
             </div>
 
+            <div className='rprt-stats-img-div'>
+              
+                <img src="./img/analytics-en.png" className='rprt-stats-img' />
+            </div>
+        
         </div>
         
 

@@ -14,6 +14,11 @@ body{
   margin: 0px;
 
   font-family: "Montserrat", sans-serif;
+ 
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 a{
@@ -29,6 +34,8 @@ a{
 header{
   margin: 0px;
   padding: 0px;
+
+  align-items: center;
 }
 
 nav {
@@ -37,9 +44,12 @@ nav {
   font-weight: bold;
   font-size: 2rem;
 
-  padding: 24px;
-  
-  align-items: baseline;
+
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  align-items: center;
 
   background-color: var(--white);
 
@@ -49,6 +59,15 @@ nav {
 
 }
 
+nav img{
+  margin: 0px;
+
+  margin-top: 10px;
+  padding: 10px;
+  padding-top: 0px;
+  align-items: center;
+}
+
 
 /* links*/
 .links-container{
@@ -56,13 +75,14 @@ nav {
   margin: 0 auto;
 
   padding: 5px;
+
+  margin-bottom: 12px;
 }
 .links-container a {
 
   margin: 13px;
   padding: 10px;
 
-  font-weight: lighter;
   font-size: 14px;
 
   color: var(--primary);
@@ -112,8 +132,8 @@ nav {
 }
 
 .home-title{
+  font-weight: 500;
   font-size: 2.4rem;
-
 }
 
 .home-parag{
@@ -124,9 +144,12 @@ nav {
 }
 
 .tablet-img-home{
-  margin-top: 20px;
+  margin-top: 30px;
   max-width: 950px;
  
+}
+.gplay-svg{
+  margin-top: 20px;
 }
 /********/
 
@@ -144,6 +167,7 @@ nav {
 }
 
 .features-wraper h3{
+  font-weight: 500;
   font-size: 2rem;
 }
 
@@ -160,6 +184,8 @@ nav {
 
 .features-title-1{
   font-size: 2.4rem;
+  font-weight: 500;
+
 }
 .features-par-1{
   margin-top: 0px;
@@ -182,17 +208,31 @@ nav {
   margin-top: 100px;
 
   border-radius: 15px;
+
+}
+.features-text-container-2, .features-img-div{
+  width: 444.492px;
+  height: 300px;
+
+  align-items: center;
 }
 
-.features-img{
-  width: 280px;
-  height: 290px;
 
-  margin-left: 140px;
+.features-img{
+  width: 300px;
+  height: 260px;
+
+  
 }
 
 .features-par-2{
   font-size: 0.9rem;
+}
+.features-text-container-2{
+
+  padding: 30px;
+  margin-right: -20px;
+
 }
 
 
@@ -209,11 +249,10 @@ nav {
 
 
 }
-
+.staff-management-container{
+  margin-right: 50px;
+}
 .staff-management-container, .inventory-container{
-
-
-  margin: 25px;
 
   border-radius: 15px;
 
@@ -241,25 +280,32 @@ nav {
 }
 /***********************/
 
-.rprt-stats-img{
-  width: 350px;
-  height: 260px;
+.rprt-stats-container{
 
-  margin-left: 140px;
-}
-
-.features-3-wraper{
 
   display: flex;
-
   justify-content: center;
-  margin-top: 100px;  
+
+  margin-top: 100px;
 
   border-radius: 15px;
-
-  margin-left: 80px;
 }
 
-.features-par-3{
-  font-size: 0.9rem;
+.rprt-stats-text, .rprt-stats-img{
+  width: 350.492px;
+  height: 300px;
+
+  align-items: center;
+
+}
+
+.rprt-stats-text{
+
+  padding: 30px;
+  margin-right: -10px;
+
+}
+
+.rprt-stats-img{
+  width: auto;
 }
