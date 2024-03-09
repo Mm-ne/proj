@@ -1,10 +1,25 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import { useState } from 'react';
+
 
 export default function Navbar() {
+
+  const [color, setColor] = useState(false);
+
+  const changeColor = () => {
+    if(window.scrollY >= 85){
+      setColor(true);
+    }else{
+      setColor(false);
+    }
+  }
+
+  window.addEventListener('scroll', changeColor);
+
   return (
-    <header>
-        <nav>
+    <header className={color ? "header-bg" : ""}>
+        <nav className={color ? 'nav-bg' : ""}>
             <a href='#home' className='site-name'>
               <img src='./img/matjar_logo.svg' />
             </a>
