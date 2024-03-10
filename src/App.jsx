@@ -7,6 +7,7 @@ import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import Features from './Components/Features'
 import BusinessTypes from './BusinessTypes'
+import MultiStore from './MultiStore'
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Home />
       <Features />  
       <BusinessTypes />
+      <MultiStore />
     </>
   )
 }
