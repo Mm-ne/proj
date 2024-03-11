@@ -11,9 +11,9 @@ export default function Home() {
         customers and staff to inventory<br/>
         and operations.</p>
         <a href='https://googleplay.com'>
-          <img src="./img/download_google_play.svg" className='gplay-svg'/>
+          <img src="https://github.com/Mm-ne/proj/blob/main/img/download_google_play.svg" className='gplay-svg'/>
         </a><br/>
-        <img src='./img/tablet.png' className='tablet-img-home'/>
+        <img src='https://github.com/Mm-ne/proj/blob/main/img/tablet.png' className='tablet-img-home'/>
       </div>
     </>
   )
