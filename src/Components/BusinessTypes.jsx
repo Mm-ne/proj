@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function BusinessTypes() {
   return (
-    <div id='business-types'>
+    <div id='business-types' className='business-types-wrapper'>
         <div className='business-img-wraper'>
             <div className='business-img-div'>
                 <img src="./img/Column.png" />

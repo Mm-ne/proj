@@ -6,8 +6,11 @@ import React from 'react'
 import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import Features from './Components/Features'
-import BusinessTypes from './BusinessTypes'
-import MultiStore from './MultiStore'
+import BusinessTypes from './Components/BusinessTypes'
+import MultiStore from './Components/MultiStore'
+import DownloadApp from './Components/DownloadApp'
+
+
 
 
 
@@ -20,6 +23,8 @@ function App() {
       <Features />  
       <BusinessTypes />
       <MultiStore />
+      <DownloadApp  />
+
     </>
   )
 }

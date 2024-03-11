@@ -14,6 +14,7 @@
 
   --hoverButton : linear-gradient(45deg, var(--cyan), var(--primary), var(--secondary));
 
+  --support : rgba(11, 50, 97, 0.544);
 }
 
 /**************/
@@ -169,6 +170,7 @@ nav img{
 
 /* Home */
 .home-container{
+  padding-top: 50px !important;
   margin: 0px;
   padding: 0px;
 
@@ -179,6 +181,7 @@ nav img{
 }
 
 .home-title{
+  padding-top: 20px;
   font-weight: 500;
   font-size: 2.4rem;
 }
@@ -204,7 +207,7 @@ nav img{
 /* Features */
 
 .features-wraper{
-
+  padding-top: 90px !important;
   margin: 0px;
   padding: 50px;
   
@@ -249,8 +252,6 @@ nav img{
 /***********************/
 .features-2-wraper{
 
-  
-
   display: flex;
   justify-content: center;
 
@@ -291,7 +292,6 @@ nav img{
 
 /* Staff-manag and Inventory */
 .sm-inv-container{
-
   display: flex;
   justify-content: center;
   margin-top: 40px;
@@ -362,7 +362,12 @@ nav img{
 
 
 /* Business Types */
+
+.business-img-wraper{
+  padding-top: 90px;
+}
 .business-img-div{
+
   width: 1000px;
   height: 600px;
   margin: auto;
@@ -434,15 +439,20 @@ td{
 
 
 /* MultiStore */
+#multiStore-link{
+  padding-top: 24px;
+}
 .multistore-wrapper{
   color: white;
 
+
+  margin-top: 60px !important;
   width: 100%;
 
   background-color: var(--primaryMultiStore);
   padding: 10px;
-  margin-top: 100px;
 
+  padding-top: 0px;
 }
 
 .multistore-wrapper section{
@@ -525,4 +535,89 @@ td{
   font-size: 1.3rem;
 
   padding: 15px;
+}
+
+.getting-support-container{
+
+  display: grid;
+
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  
+  margin: 0 auto;
+
+  padding: 10px;
+}
+
+.getting-support-container .item-1, .item-2, .item-3{
+  
+
+  height: 240px;
+  width: 220px;
+
+  margin-right: 30px;
+  border-radius: 20px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  align-items: baseline;
+
+  background-color: var(--support);
+
+  padding: 40px;
+}
+
+.getting-support-container .icon{
+  font-size: 4rem;
+  margin-bottom: 90px;
+}
+.title-2{
+  margin-bottom: 0px;
+  margin-top: 200px;
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+  font-size: 2.3rem;
+  font-weight: 450;
+
+  word-spacing: 0px;
+  line-height: 3rem;
+
+}
+.getting-support-container p{
+  margin-bottom: 30px;
+}
+.link{
+  text-decoration: none;
+  color: var(--cyan);
+  font-weight: 500;
+  
+  transition: all 0.4s ease;
+
+}
+.link:hover{
+  text-shadow: 0px 0px 3px var(--cyan);
+}
+
+/* Download section*/
+.donwload-container{
+  width: 1000px;
+}
+
+.download-container img{
+
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+
+  justify-content: center;
+  margin: auto;
+  display: flex;
+
+  width: 960px;
+  height: 350px;
+  border-radius: 25px;
+
+
 }
