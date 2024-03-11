@@ -71,7 +71,7 @@ export default function Features() {
 
             <div className='rprt-stats-img-div'>
               
-                <img src="hhttps://i.postimg.cc/m2LrvsXV/analytics-en.png" className='rprt-stats-img' />
+                <img src="https://i.postimg.cc/m2LrvsXV/analytics-en.png" className='rprt-stats-img' />
             </div>
         
         </div>
