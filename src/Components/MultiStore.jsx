@@ -34,21 +34,21 @@ export default function MultiStore() {
     </div>
 
     <div className='multistore-phone-container'>
-        <img src='https://github.com/Mm-ne/proj/blob/main/img/phone_en.png' />
+        <img src='https://i.postimg.cc/FFWRX6M4/phone-en.png' />
     </div>
 </section>
 
 <div className='devices-container'>
     <div>
-        <img src='https://github.com/Mm-ne/proj/blob/main/img/make_a_sale_en.png' />
+        <img src='https://i.postimg.cc/1X2snkSV/make-a-sale-en.png' />
         <br/> <p>Phone</p>
     </div>
     <div>
-        <img src='https://github.com/Mm-ne/proj/blob/main/img/tablet_.png' />
+        <img src='https://i.postimg.cc/c43Nk5ZT/tablet.png' />
         <br/> <p>Tablet</p>
     </div>
     <div>
-        <img src='https://github.com/Mm-ne/proj/blob/main/img/labtop.png' />
+        <img src='https://i.postimg.cc/wBq8vqNb/labtop.png' />
         <br/> <p>Laptop</p>
     </div>
 </div>

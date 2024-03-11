@@ -6,7 +6,7 @@ export default function BusinessTypes() {
     <div id='business-types' className='business-types-wrapper'>
         <div className='business-img-wraper'>
             <div className='business-img-div'>
-                <img src="https://github.com/Mm-ne/proj/blob/main/img/Column.png" />
+                <img src="https://i.postimg.cc/k4y2SXY6/Column.png" />
                 <p>Built for all kinds<br/>of retailers.</p>
             </div>
         </div>

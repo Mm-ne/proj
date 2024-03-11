@@ -13,7 +13,7 @@ export default function Home() {
         <a href='https://googleplay.com'>
           <img src="https://github.com/Mm-ne/proj/blob/main/img/download_google_play.svg" className='gplay-svg'/>
         </a><br/>
-        <img src='https://i.postimg.cc/c4yqVMFm/324486.jpg' className='tablet-img-home'/>
+        <img src='https://i.postimg.cc/ydpf7Bh9/tablet.png' className='tablet-img-home'/>
       </div>
     </>
   )

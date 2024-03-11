@@ -4,7 +4,7 @@ import React from 'react'
 export default function DownloadApp() {
   return (
     <div className='download-container'>
-      <img src='https://github.com/Mm-ne/proj/blob/main/img/back.png' />
+      <img src='https://i.postimg.cc/XvYjPcsJ/back.png' />
     </div>
   )
 }

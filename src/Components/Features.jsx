@@ -29,7 +29,7 @@ export default function Features() {
                 </p>
             </div>
             <div className='features-img-div'>
-                <img src='https://github.com/Mm-ne/proj/blob/main/img/option_list.png' className='features-img'/>
+                <img src='https://i.postimg.cc/nchDvBJH/option-list.png' className='features-img'/>
             </div>
 
         </div>
@@ -44,7 +44,7 @@ export default function Features() {
                     Customer profiles, Purchase orders, Unlimited staff,<br/>
                     Roles & Permissions,, Staff PINs.
                 </p>
-                <img src="https://github.com/Mm-ne/proj/blob/main/img/employe_management.png" />
+                <img src="https://i.postimg.cc/rwz5LWnh/employe-management.png" />
             </div>
 
             <div className='inventory-container'>
@@ -53,7 +53,7 @@ export default function Features() {
                     Unlimited products, Barcodes, Item variants, 
                     Item <br/> units, Low-stock alerts, Suppliers profile.
                 </p>
-                <img src="https://github.com/Mm-ne/proj/blob/main/img/products-en.png" />
+                <img src="https://i.postimg.cc/h4bL8KQ0/products-en.png" />
             </div>
         
         </div>
@@ -71,7 +71,7 @@ export default function Features() {
 
             <div className='rprt-stats-img-div'>
               
-                <img src="https://github.com/Mm-ne/proj/blob/main/img/analytics-en.png" className='rprt-stats-img' />
+                <img src="hhttps://i.postimg.cc/m2LrvsXV/analytics-en.png" className='rprt-stats-img' />
             </div>
         
         </div>
