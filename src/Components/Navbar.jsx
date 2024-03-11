@@ -21,7 +21,7 @@ export default function Navbar() {
     <header className={color ? "header-bg" : ""}>
         <nav className={color ? 'nav-bg' : ""}>
             <a href='#home' className='site-name'>
-              <img src='https://github.com/Mm-ne/proj/blob/main/img/matjar_logo.svg' />
+              <img src='https://i.postimg.cc/KvT5HCz9/matjar-logo.png' />
             </a>
             <div className='links-container'>    
                 <a href='#home' className='home-link'>Home</a>
