@@ -9,6 +9,7 @@ import Features from './Components/Features'
 import BusinessTypes from './Components/BusinessTypes'
 import MultiStore from './Components/MultiStore'
 import DownloadApp from './Components/DownloadApp'
+import Footer from './Components/Footer'
 
 
 
@@ -24,7 +25,7 @@ function App() {
       <BusinessTypes />
       <MultiStore />
       <DownloadApp  />
-
+      <Footer />
     </>
   )
 }
