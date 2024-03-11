@@ -446,8 +446,7 @@ td{
   color: white;
 
 
-  margin-top: 60px !important;
-  width: 100%;
+
 
   background-color: var(--primaryMultiStore);
   padding: 10px;
@@ -547,6 +546,8 @@ td{
   margin: 0 auto;
 
   padding: 10px;
+
+  padding-bottom: 90px;
 }
 
 .getting-support-container .item-1, .item-2, .item-3{
@@ -602,22 +603,46 @@ td{
 }
 
 /* Download section*/
-.donwload-container{
+.donwload-wrapper{
+  justify-content: center;
+  margin: auto;
+
   width: 1000px;
 }
+.download-container{
+  background-image: url(https://i.postimg.cc/XvYjPcsJ/back.png);
 
-.download-container img{
+  color: rgb(3, 14, 55);
 
-  margin-top: 60px !important;
-  margin-bottom: 60px !important;
+  width: 950px;
+  height: 300px;
+
+  background-size: cover;
+
+  padding: 40px;
+  border-radius: 25px;
+
+  text-align: center;
 
   justify-content: center;
   margin: auto;
-  display: flex;
 
-  width: 960px;
-  height: 350px;
-  border-radius: 25px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+.download-container h3{
+  font-size: 2.5rem;
 
+  font-weight: 500;
 
+  margin-bottom: 35px;
+}
+
+.download-container p{
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+.download-container img{
+  width: 180px;
 }
