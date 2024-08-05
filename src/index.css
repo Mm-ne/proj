@@ -1,4 +1,5 @@
 :root{
+  /*
   --primary: rgba(11, 50, 97, 0.85);
   --secondary: rgb(16, 179, 255);
 
@@ -15,23 +16,41 @@
   --hoverButton : linear-gradient(45deg, var(--cyan), var(--primary), var(--secondary));
 
   --support : rgba(11, 50, 97, 0.544);
+  */
+  --primary: rgba(28, 28, 28, 0.99);
+  --secondary: #a36494;
+
+  --primaryMultiStore: rgba(14, 14, 14, 0.99);
+
+  --cyan: #c586b7;
+  
+  --white: rgb(255, 255, 255);
+  --grey: rgba(210, 210, 210, 0.212);
+
+  --blue: #87A7D0;
+  --primaryNavbar: rgba(14, 14, 14, 0.99);
+
+  --hoverButton : linear-gradient(45deg, var(--cyan), var(--primary), var(--secondary));
+
+  --support : rgba(11, 50, 97, 0.544);
 }
 
 /**************/
 *{
-  scrollbar-color: rgba(16, 179, 255, 0.611) rgba(255, 255, 255, 0.907);
+  scrollbar-color: #C18DB4 rgba(255, 255, 255, 0.907);
 }
 body{
   
   padding: 0px;
   margin: 0px;
-
+  
   font-family: "Montserrat", sans-serif;
  
 }
 
 html{
   scroll-behavior: smooth;
+  
 }
 
 a{
@@ -52,7 +71,7 @@ header{
 
   position: fixed; /* Set the navbar to fixed position */
   
-  width: 100%; /* Full width */
+  width: 100%;
 
   overflow: hidden;
   
@@ -409,9 +428,6 @@ nav img{
   margin-bottom: 40px;
 
   margin-top: 0px;
-
-
-
 }
 .business-types-div table{
   border-spacing: 30px;
@@ -435,20 +451,20 @@ td{
   border-radius: 9px;
   border: 2px solid rgba(71, 71, 71, 0.168);
 }
-/* End of Staff-manag and Inventory */
+/* End of Business Types */
 
 
 /* MultiStore */
 #multiStore-link{
   padding-top: 84px;
+  background-color: var(--primaryMultiStore);
+  width: 100%;
 }
 .multistore-wrapper{
+
   color: white;
 
-
-
-
-  background-color: var(--primaryMultiStore);
+  
   padding: 10px;
 
   padding-top: 0px;
@@ -458,6 +474,7 @@ td{
 
   justify-content: center;
   display: flex;
+
 
 
 }
@@ -570,6 +587,9 @@ td{
 
   transition: all 0.4s ease-in;
 }
+.item-3{
+  margin-right: 0px !important;
+}
 
 .getting-support-container .icon{
   font-size: 4rem;
@@ -660,9 +680,7 @@ td{
   cursor: pointer;
   width: 180px;
 }
-.download-container:hover{
-  box-shadow: 0px 20px 10px var(--cyan);
-}
+
 /* End of Download section */
 
 
@@ -671,6 +689,8 @@ td{
 
 /* Footer */
 footer{
+
+
   margin-top: 85px !important;
 
   text-align: center;
@@ -719,3 +739,146 @@ footer{
 }
 
 /* End of Footer */
+
+
+
+
+/* Media queries */
+@media screen and (max-width: 1062px) {
+ 
+  /* Header */
+  header{
+    height: 75px;
+    width: 100%;
+  }
+  .links-container{
+    display: none;
+  }
+
+  nav img{
+    width: 110px;
+
+  }
+  .download-nav-button{
+    width: 110px;
+    font-size: 11px;
+    padding: 14px;
+
+    justify-content: right;
+    margin-left: auto;
+  }
+  /* end of header*/
+
+  /* Home */
+  .tablet-img-home{
+    width: 800px;
+  }
+  /* end of Home */
+
+  /* Features */
+  .features-2-wraper{
+    justify-content: center;
+    margin: auto;
+    margin-top: 70px;
+
+  }
+  /* end of Features */
+
+  /* Business Types */
+
+  .business-img-div{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    text-align: left;
+    position: relative;
+
+    height: 490px;
+
+  }
+
+  .business-img-div img{
+    width: 800px;
+    height: 400px;
+  }
+  
+  .business-img-div p{
+    margin-top: 7%;
+    top: 1%;
+    left: 4%;
+  }
+
+  .business-types-div{
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .business-types-div table{
+    width: 900px;
+  }
+  /* end of  Business types*/
+
+
+  /*MultiStore */
+  
+  .multistore-wrapper section{
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin: auto;
+    width: 100% !important;
+
+
+    margin-bottom: 100px;
+  }
+
+  .multistore-phone-container img{
+    width: 350px;
+  }
+  .devices-container{
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+
+    margin-left: -60px;
+    
+  }
+  .getting-support-container{
+    margin: auto;
+    width: 250px !important;
+  }
+  .getting-support-container .item-1, .item-2, .item-3{
+    width: 210px;
+    height: 220px;
+
+
+  }
+  .getting-support-container p{
+    margin: 0px;
+    padding: 0px;
+    margin-top: -10px;
+    margin-bottom: 45px;    
+
+
+  }
+  /* end of MultiStore */
+
+  .donwload-wrapper{
+    width: 700px;
+  }
+
+  .download-container{
+    width: 880px;
+  }
+
+}
+
+@media screen and (max-width:412px) {
+
+  nav img{
+    width: 10px !important;
+  }
+
+}
