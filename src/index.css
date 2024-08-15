@@ -1,5 +1,5 @@
 :root{
-  /*
+  /* Old Colors 
   --primary: rgba(11, 50, 97, 0.85);
   --secondary: rgb(16, 179, 255);
 
@@ -17,6 +17,7 @@
 
   --support : rgba(11, 50, 97, 0.544);
   */
+
   --primary: rgba(28, 28, 28, 0.99);
   --secondary: #a36494;
 
@@ -26,6 +27,7 @@
   
   --white: rgb(255, 255, 255);
   --grey: rgba(210, 210, 210, 0.212);
+  --lightgrey: #939393;
 
   --blue: #87A7D0;
   --primaryNavbar: rgba(14, 14, 14, 0.99);
@@ -135,7 +137,7 @@ nav img{
 .site-name{
   display: flex;
 
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 
   color: var(--primaryNavbar);
 }
@@ -746,141 +748,140 @@ footer{
 
 /* End of Footer */
 
+/* @media (max-width: 575px) {
 
-
-
-/* Media queries */
-@media screen and (max-width: 1062px) {
  
-  /* Header */
-  header{
-    height: 70px;
-    width: 100%;
+  nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
   }
+  .download-nav-button{
+    font-size: 12px;
+    width: 110px;
+    padding: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: -10px;
+  }
+  nav a {
+    font-size: 1.5rem;
+  }
+  nav img {
+    width: 35px;
+    height: 40px;
+    margin-left: -7px;
+    margin-right: 10px;
+    margin-top: -10px;
+  }  
+
   .links-container{
     display: none;
   }
 
-  .download-nav-button{
-    width: 110px;
-    font-size: 11px;
-    padding: 14px;
 
-    justify-content: right;
-    margin-left: auto;
+  .home-container{
+    padding: 40px;
+    background: linear-gradient(180deg, rgba(252, 251, 255, 0.244) 20%,rgba(255, 255, 255, 0.252) 25%, rgba(210, 181, 204, 0.096) 45%, rgba(163, 100, 148, 0.211) 100%);
+    height: 500px;
+
   }
-  /* end of header*/
-
-  /* Home */
+  .home-title{
+    font-size: 2.2em;
+    font-weight: 600;
+  }
+  .home-parag{
+    font-size: 16px;
+    color: var(--lightgrey);
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
   .tablet-img-home{
-    width: 800px;
+   display: none;
   }
-  /* end of Home */
-
-  /* Features */
-  .features-2-wraper{
-    justify-content: center;
-    margin: auto;
-    margin-top: 70px;
-
-  }
-  /* end of Features */
-
-  /* Business Types */
 
   .business-img-div{
-    margin: auto;
-    justify-content: center;
-    display: flex;
-    text-align: left;
-    position: relative;
-
-    height: 490px;
-
+    display: none;
   }
 
-  .business-img-div img{
-    width: 800px;
-    height: 400px;
-  }
-  
-  .business-img-div p{
-    margin-top: 7%;
-    top: 1%;
-    left: 4%;
-  }
-
-  .business-types-div{
-    width: 900px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-  }
-
-  .business-types-div table{
-    width: 900px;
-  }
-  /* end of  Business types*/
 
 
-  /*MultiStore */
-  
-  .multistore-wrapper section{
-    justify-content: space-evenly;
-    align-items: center;
-
-    margin: auto;
-    width: 100% !important;
-
-
-    margin-bottom: 100px;
-  }
-
-  .multistore-phone-container img{
-    width: 350px;
-  }
-  .devices-container{
-    justify-content: space-evenly;
-    align-items: center;
-    margin: auto;
-
-    margin-left: -60px;
-    
-  }
-  .getting-support-container{
-    margin: auto;
-    width: 250px !important;
-  }
-  .getting-support-container .item-1, .item-2, .item-3{
-    width: 210px;
-    height: 220px;
-
-
-  }
-  .getting-support-container p{
-    margin: 0px;
+  .features-wraper{
     padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    margin: auto;
+  }
+  .features-text-container-1{
+    padding: 40px;
+  }
+  .features-title-1{
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+  .features-par-1{
+    font-size: 16px;
+    color: var(--lightgrey);
     margin-top: -10px;
-    margin-bottom: 45px;    
-
-
-  }
-  /* end of MultiStore */
-
-  .donwload-wrapper{
-    width: 700px;
+    margin-bottom: 20px;
   }
 
-  .download-container{
-    width: 880px;
+  .features-2-wraper{
+    padding: 0px;
+    background-color: rgba(127, 255, 212, 0.211);
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
+  .features-text-container-2{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+    margin-right: 0px;  
+  }
+  .features-title-2{
+    margin-bottom: 0px;
+  }
+  .features-img-div{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+ 
+
+  }
+  .features-img-div img{
+    width: 350px;
+    height: 300px;
+  }
+
+
+
+  .sm-inv-container{
+    display: none;
+  }
+  .rprt-stats-container{
+    display: none;
+  }
+  #multiStore-link{
+    display: none;
+  }
+  .business-types-wrapper{
+    display: none;
+  }
+  .download-wrapper{
+    display: none;
+  }
+  footer{
+    display: none;
+  }
+ 
 }
 
-@media screen and (max-width:412px) {
-
-  nav img{
-    width: 10px !important;
-  }
-
-}
+*/
